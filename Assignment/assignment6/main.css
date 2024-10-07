@@ -1,0 +1,65 @@
+/* Dark blue theme for the login page */
+body {
+    background-color: #030303; /* Dark blue background */
+    color: #ffffff; /* White text for contrast */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #da4906; /* Darker blue for the form background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+fieldset {
+    border: 2px solid #ffffff; /* Dark blue border */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+legend {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+label {
+    color: #ffffff;
+    display: block;
+    margin: 10px 0 5px 0;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #d48206; /* Dark blue input field */
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #ff7300;; /* Dark blue for buttons */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #002d72; /* Slight hover effect */
+}
+

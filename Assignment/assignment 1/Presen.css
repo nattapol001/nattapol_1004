@@ -1,0 +1,26 @@
+h1{
+    background-color: rgb(172, 5, 5);
+    color: rgb(255, 255, 255);
+}
+
+div{
+    text-align: center;
+}
+
+h2{
+    background-color: rgb(172, 5, 5);
+    color: rgb(255, 255, 255);
+    margin-bottom: 1%;
+}
+
+#cats{
+    border-radius: 100%;
+    border: 10px solid rgb(172, 5, 5);
+}
+
+.box{
+    
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    
+}
